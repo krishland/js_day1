@@ -1,3 +1,3 @@
-const main = require("./firTree");
+const main = require("./20_myRemoveN");
 
-console.log(main(5));
+console.log(main(["b", "a"], 1));
