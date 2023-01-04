@@ -1,3 +1,3 @@
-const main = require("./24_myConcat");
+const main = require("./20_myRemoveN");
 
-console.log(main([1, 3, 3], [1, 3, 3]));
+console.log(main([1,2,3,4,5],4));

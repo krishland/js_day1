@@ -1,5 +1,6 @@
 function myRemoveN (tab, num) {
-    return tab.slice(num);
+    let newTab = tab.slice(num);
+    return tab;
 }
 
 module.exports = myRemoveN;
