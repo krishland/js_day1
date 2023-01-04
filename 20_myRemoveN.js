@@ -1,5 +1,5 @@
 function myRemoveN (tab, num) {
-    let newTab = tab.slice(num);
+    tab.splice(num, 1);
     return tab;
 }
 
