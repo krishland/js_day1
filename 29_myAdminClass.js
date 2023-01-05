@@ -11,8 +11,8 @@ class User {
 }
 
 class Admin extends User {
-    constructor (a, b, c, role) {
-        super(a, b, c);
+    constructor (surname, name, age, role) {
+        super(surname, name, age);
         this.role = "administrateur";
     }
 }
