@@ -1,7 +1,3 @@
-const main = require("./20_myRemoveN");
+const main = require("./26_myUserDescription");
 
-console.log(main([
-        1,
-        2,
-        3,
-      ], 0));
+console.log(main({surname: "a", name: "A", age: 23}));
