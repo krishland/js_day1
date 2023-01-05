@@ -9,3 +9,5 @@ class User {
         return `Je m'apelle ${this.surname} ${this.name}, j'ai ${this.age} ans`;
     }
 }
+
+module.exports = User;

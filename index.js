@@ -1,6 +1,3 @@
-const main = require("./27_myObjectFilter")
+const main = require("./30_myObjectValues")
 
-console.log(main([ 
-    {name: "A", surname: "a", age: 12}, 
-    {name: "B", surname: "b", age: 30} 
-  ]));
+console.log(main({name: "Ganster", surname: "Guilian", age: 24, presentation: () => {}})); 
